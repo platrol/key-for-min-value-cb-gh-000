@@ -7,8 +7,8 @@ def key_for_min_value(name_hash)
     value
   end
   i = 0
-   while i < values.size do
-     if values[i] > values[i+1] do
+   while i < values.size 
+     if values[i] > values[i+1] 
        values[i], values[i+1] = values[i], values[i+1]
      end
    end
