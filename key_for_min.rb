@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
   values = []
   values = name_hash.collect do |key, value|
-    value
+    values[value] = key
   end
     2.times do
     i = 0
